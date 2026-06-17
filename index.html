@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THANAVITHYASSWARY SANKAR e-Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        
+        .beach-glass {
+            background: rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(20px) saturate(140%);
+            -webkit-backdrop-filter: blur(20px) saturate(140%);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 15px 35px -10px rgba(180, 160, 140, 0.25),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        }
+
+        .beach-hover-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .beach-hover-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.7);
+            border-color: rgba(142, 222, 230, 0.6);
+            box-shadow: 0 25px 50px -12px rgba(140, 175, 185, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-[#bcecf2] via-[#e8ebd9] via-[#f7f3e8] to-white text-slate-800 antialiased selection:bg-[#a8e6cf] selection:text-slate-900 min-h-screen relative overflow-x-hidden">
+
+    <nav class="sticky top-0 z-50 beach-glass border-b border-white/40 shadow-sm backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <span class="text-m font-black tracking-widest text-slate-900 flex items-center gap-2">
+                    <span>🥯</span> NOMNOM
+                </span>
+                <div class="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase tracking-widest text-slate-600">
+                    <a href="#profile" class="hover:text-[#2c7a8b] transition-colors">Profile</a>
+                    <a href="#labs" class="hover:text-[#2c7a8b] transition-colors">Labs</a>
+                    <a href="#projects" class="hover:text-[#2c7a8b] transition-colors">Projects</a>
+                    <a href="#journey" class="hover:text-[#2c7a8b] transition-colors">Journey</a>
+                    <a href="#stack" class="hover:text-[#2c7a8b] transition-colors">Tech Stack</a>
+                    <a href="#resources" class="hover:text-[#2c7a8b] transition-colors">Attributions</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative z-10 pt-20 pb-16 px-6 text-center">
+        <div class="max-w-3xl mx-auto space-y-5">
+            <div class="inline-flex items-center gap-2 bg-white/70 border border-[#bcecf2] text-[#246270] text-[9px] font-mono uppercase tracking-widest font-bold px-4 py-1.5 rounded-full shadow-sm">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#49c5b6] animate-pulse"></span> Mobile Application
+            </div>
+            
+            <div class="space-y-1">
+                <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight uppercase text-slate-900">
+                    Thanavithyasswary Sankar
+                </h1>
+                <p class="text-[#2c7a8b] text-m font-mono tracking-widest uppercase font-bold">
+                    Matric No: A216381
+                </p>
+            </div>
+            
+            <div class="w-16 h-[2px] bg-[#2c7a8b]/30 mx-auto rounded-full"></div>
+
+            <p class="text-slate-600 text-[10px] font-bold max-w-md mx-auto leading-relaxed uppercase tracking-widest">
+                <span class="text-slate-900 font-extrabold">[TK2323/TM2213 Mobile Programming]</span><br>
+                Lab Instructor &nbsp;&bull;&nbsp; <span class="text-[#2c7a8b] font-extrabold">Cikgu Izwan</span>
+            </p>
+        </div>
+    </header>
+
+    <main class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-8 space-y-32">
+
+        <section id="profile" class="scroll-mt-24">
+            <div class="beach-glass rounded-2xl p-6 md:p-10 shadow-md relative overflow-hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <div class="lg:col-span-4 flex flex-col items-center text-center p-6 bg-white/70 border border-white text-slate-800 rounded-xl shadow-sm">
+                        <div class="w-28 h-28 rounded-full flex items-center justify-center mb-4 shadow-md overflow-hidden border border-[#bcecf2] p-1 bg-white">
+                            <img src="images_nomnom/logo_nomnom.png" alt="NOMNOM App Logo" class="w-full h-full object-cover rounded-full" />
+                        </div>
+                        <h2 class="text-xl font-bold tracking-widest text-[#2c7a8b]">NOMNOM</h2>
+                        <p class="text-slate-500 text-[9px] uppercase tracking-widest font-bold mt-0.5">Coastal Node System</p>
+                        <div class="w-full border-t border-slate-200 my-4"></div>
+                        <div class="space-y-2 w-full text-left text-xs">
+                            <div class="bg-white/50 p-2.5 rounded-lg border border-slate-100">
+                                <p class="text-slate-500 text-[8px] uppercase tracking-wider font-bold font-mono">Name</p>
+                                <p class="text-slate-900 font-semibold mt-0.5">Thanavithyasswary Sankar</p>
+                            </div>
+                            <div class="bg-white/50 p-2.5 rounded-lg border border-slate-100">
+                                <p class="text-slate-500 text-[8px] uppercase tracking-wider font-bold font-mono">Matric Number</p>
+                                <p class="text-[#2c7a8b] font-mono font-bold mt-0.5">A216381</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="lg:col-span-8 space-y-6">
+                        <div class="space-y-3">
+                            <span class="text-[9px] font-bold uppercase tracking-widest text-[#246270] bg-[#bcecf2]/40 border border-[#2c7a8b]/20 px-2.5 py-1 rounded-md font-mono">Introduction</span>
+                            <h3 class="text-2xl font-bold text-slate-900 tracking-tight">About Me</h3>
+                            <p class="text-slate-600 leading-relaxed text-xs font-medium">Hello, I'm Thanavithyasswary Sankar and during this course I developed NomNom, an application inspired by SDG 2: Zero Hunger. The app helps people access food and donate surplus food to reduce waste. Building this app gave me valuable hands-on experience in Android development, along with many challenges that strengthened my problem-solving skills and prepared me for creating impactful applications in the future.</p>
+                        </div>
+                        
+                        <div class="p-5 bg-white/70 border border-[#bcecf2] text-slate-800 rounded-xl shadow-sm">
+                            <h4 class="text-[9px] uppercase tracking-widest font-bold text-[#2c7a8b] font-mono mb-1">Targeted Sustainable Development Goal (SDG)</h4>
+                            <p class="text-slate-900 font-extrabold text-base tracking-wide">SDG 2: Zero Hunger</p>
+                            <p class="text-slate-600 text-xs mt-2 italic border-l-2 border-[#2c7a8b] pl-3 leading-relaxed">
+                                "Our mission is to bridges the gap between surplus food providers and communities in need to systematically reduce societal food waste."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="labs" class="scroll-mt-24 space-y-8">
+            <div class="flex items-center justify-between border-b border-slate-300 pb-4">
+                <div class="space-y-0.5">
+                    <h2 class="text-2xl font-bold tracking-tight text-slate-900 uppercase">Labs Portfolio</h2>
+                    <p class="text-slate-600 text-xs font-medium uppercase tracking-wider">Chronological tracking metrics showing app design progress.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="beach-glass rounded-xl overflow-hidden beach-hover-card flex flex-col justify-between p-5 space-y-4">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold font-mono tracking-widest uppercase px-2 py-0.5 rounded">Lab 01</span>
+                            <i class="fa-solid fa-cubes text-slate-500 text-xs"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-slate-900 tracking-tight">User Interface Architecture</h3>
+                        
+                        <div class="aspect-[9/16] max-w-[240px] mx-auto w-full bg-slate-900 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-xl relative group">
+                            <img src="images_nomnom/Lab 1.png" alt="Lab 1 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        
+                        <p class="text-slate-600 text-[11px] leading-relaxed font-medium"><strong>Reflection:</strong> Through this project, I learned how to use Jetpack Compose's declarative UI approach to build Android interfaces more efficiently. I gained experience using basic Composable layouts such as Columns and Rows, as well as applying alignment and arrangement properties to create organized and responsive user interfaces.</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-200">
+                        <a href="https://youtu.be/KeMj2GL7fck" target="_blank" class="flex items-center gap-1.5 text-xs font-bold text-[#2c7a8b] hover:text-[#1a4a54] transition-colors"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR) &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="beach-glass rounded-xl overflow-hidden beach-hover-card flex flex-col justify-between p-5 space-y-4">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold font-mono tracking-widest uppercase px-2 py-0.5 rounded">Lab 02</span>
+                            <i class="fa-solid fa-bolt text-slate-500 text-xs"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-slate-900 tracking-tight">Interactive Systems & State</h3>
+                        
+                        <div class="aspect-[9/16] max-w-[240px] mx-auto w-full bg-slate-900 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-xl relative group">
+                            <img src="images_nomnom/Lab 2.png" alt="Lab 2 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        
+                        <p class="text-slate-600 text-[11px] leading-relaxed font-medium"><strong>Reflection:</strong> I learned to manage UI states using `mutableStateOf` and `remember` in Jetpack Compose. I also understood how state changes trigger recomposition and automatically update the UI based on user input.</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-200">
+                        <a href="https://youtu.be/inf7P6OQdvs" target="_blank" class="flex items-center gap-1.5 text-xs font-bold text-[#2c7a8b] hover:text-[#1a4a54] transition-colors"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR) &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="beach-glass rounded-xl overflow-hidden beach-hover-card flex flex-col justify-between p-5 space-y-4">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold font-mono tracking-widest uppercase px-2 py-0.5 rounded">Lab 03</span>
+                            <i class="fa-solid fa-sliders text-slate-500 text-xs"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-slate-900 tracking-tight">Material Design Systems</h3>
+                        
+                        <div class="aspect-[9/16] max-w-[240px] mx-auto w-full bg-slate-900 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-xl relative group">
+                            <img src="images_nomnom/Lab 3.png" alt="Lab 3 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        
+                        <p class="text-slate-600 text-[11px] leading-relaxed font-medium"><strong>Reflection:</strong> I learned how to create a consistent app design by defining custom themes in `Color.kt` and `Theme.kt` following Material 3 guidelines. I also built clear card layouts and improved the user experience by adding smooth size animations using `animateContentSize()`.</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-200">
+                        <a href="https://youtu.be/v7giTisgrS4" target="_blank" class="flex items-center gap-1.5 text-xs font-bold text-[#2c7a8b] hover:text-[#1a4a54] transition-colors"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR) &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="beach-glass rounded-xl overflow-hidden beach-hover-card flex flex-col justify-between p-5 space-y-4">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold font-mono tracking-widest uppercase px-2 py-0.5 rounded">Lab 04</span>
+                            <i class="fa-solid fa-route text-slate-500 text-xs"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-slate-900 tracking-tight">Navigation & Adaptive Layouts</h3>
+                        
+                        <div class="aspect-[9/16] max-w-[240px] mx-auto w-full bg-slate-900 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-xl relative group">
+                            <img src="images_nomnom/Lab 4.png" alt="Lab 4 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        
+                        <p class="text-slate-600 text-[11px] leading-relaxed font-medium"><strong>Reflection:</strong> I learned to build a cohesive navigation flow using a centralized `NavHost`, defining safe screen routes, and passing dynamic arguments securely between screens to maintain a structured application lifecycle.</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-200">
+                        <a href="https://youtu.be/cXimJNjOQpk" target="_blank" class="flex items-center gap-1.5 text-xs font-bold text-[#2c7a8b] hover:text-[#1a4a54] transition-colors"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR) &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="beach-glass rounded-xl overflow-hidden beach-hover-card flex flex-col justify-between p-5 space-y-4">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold font-mono tracking-widest uppercase px-2 py-0.5 rounded">Lab 05</span>
+                            <i class="fa-solid fa-database text-slate-500 text-xs"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-slate-900 tracking-tight">Data Access & Persistence</h3>
+                        
+                        <div class="aspect-[9/16] max-w-[240px] mx-auto w-full bg-slate-900 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-xl relative group">
+                            <img src="images_nomnom/Lab 5.png" alt="Lab 5 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        
+                        <p class="text-slate-600 text-[11px] leading-relaxed font-medium"><strong>Reflection:</strong> I focused on offline-first storage by setting up Room database, creating DAOs for efficient local data access, and handling asynchronous operations properly to ensure smooth performance without blocking the main thread. </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-200">
+                        <a href="https://youtu.be/L9o1zQD57As" target="_blank" class="flex items-center gap-1.5 text-xs font-bold text-[#2c7a8b] hover:text-[#1a4a54] transition-colors"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR) &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="scroll-mt-24 space-y-8">
+            <div class="space-y-0.5 border-l-4 border-[#2c7a8b] pl-3">
+                <h2 class="text-2xl font-bold tracking-tight text-slate-900 uppercase">My Projects</h2>
+                <p class="text-slate-600 text-xs font-medium uppercase tracking-wider">High-fidelity functional software units built and compiled natively.</p>
+            </div>
+
+            <div class="space-y-12">
+                <div class="beach-glass rounded-2xl overflow-hidden shadow-md grid grid-cols-1 lg:grid-cols-12 beach-hover-card">
+                    <div class="p-6 md:p-8 lg:col-span-7 flex flex-col justify-between space-y-5">
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-2">
+                                <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-widest font-mono">Project 01</span>
+                                <h3 class="text-xl font-bold text-slate-900 tracking-tight">NomNom Core Integration</h3>
+                            </div>
+                            <div class="space-y-1">
+                                <h4 class="text-[9px] uppercase font-bold text-[#2c7a8b] tracking-widest font-mono">Architectural Core Challenge</h4>
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">I faced structural challenges in organizing the codebase, managing architectural state consistently, and handling complex navigation pathways. These challenges helped me understand the importance of clean architecture, proper state management, and modular design for building scalable Android applications.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-3 pt-4 border-t border-slate-200">
+                            <a href="https://github.com/a216381-vithya/A216381_NOMNOM" target="_blank" class="bg-slate-900 text-white hover:bg-[#2c7a8b] text-xs font-bold px-4 py-2 rounded-lg transition-all flex items-center gap-1.5 shadow-sm"><i class="fa-brands fa-github text-sm"></i> Code Hub</a>
+                            <a href="https://youtu.be/HQ1FMWy1VpM" target="_blank" class="border border-slate-300 bg-white/50 hover:bg-white text-slate-800 text-xs font-bold px-4 py-2 rounded-lg transition-all flex items-center gap-1.5"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR)</a>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-5 bg-white/40 p-6 flex items-center justify-center border-t lg:border-t-0 lg:border-l border-slate-200">
+                        <div class="w-full max-w-[240px] aspect-[9/16] bg-slate-900 rounded-2xl shadow-xl overflow-hidden border-4 border-slate-800 group">
+                            <img src="images_nomnom/Project 1.png" alt="Project 1 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="beach-glass rounded-2xl overflow-hidden shadow-md grid grid-cols-1 lg:grid-cols-12 beach-hover-card">
+                    <div class="p-6 md:p-8 lg:col-span-7 flex flex-col justify-between space-y-5">
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-2">
+                                <span class="bg-[#bcecf2]/50 text-[#1a4a54] border border-[#2c7a8b]/20 text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-widest font-mono">Project 02</span>
+                                <h3 class="text-xl font-bold text-slate-900 tracking-tight">NomNom Advanced Cloud Ecosystem</h3>
+                            </div>
+                            <div class="space-y-1">
+                                <h4 class="text-[9px] uppercase font-bold text-[#2c7a8b] tracking-widest font-mono">Architectural Core Challenge</h4>
+                                <p class="text-slate-600 text-xs leading-relaxed font-medium">This phase of the project expanded the application with additional user views, background network API requests, hardware camera barcode scanning, and continuous cloud integration to improve functionality and real-world usability.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-3 pt-4 border-t border-slate-200">
+                            <a href="https://github.com/a216381-vithya/A216381PROJECT2" target="_blank" class="bg-slate-900 text-white hover:bg-[#2c7a8b] text-xs font-bold px-4 py-2 rounded-lg transition-all flex items-center gap-1.5 shadow-sm"><i class="fa-brands fa-github text-sm"></i> Code Hub</a>
+                            <a href="https://youtu.be/CDWDAG9UNaI" target="_blank" class="border border-slate-300 bg-white/50 hover:bg-white text-slate-800 text-xs font-bold px-4 py-2 rounded-lg transition-all flex items-center gap-1.5"><i class="fa-brands fa-youtube text-red-500 text-sm"></i> Video (VSR)</a>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-5 bg-white/40 p-6 flex items-center justify-center border-t lg:border-t-0 lg:border-l border-slate-200">
+                        <div class="w-full max-w-[240px] aspect-[9/16] bg-slate-900 rounded-2xl shadow-xl overflow-hidden border-4 border-slate-800 group">
+                            <img src="images_nomnom/Project 2.png" alt="Project 2 View" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="scroll-mt-24">
+            <div class="beach-glass rounded-2xl p-6 md:p-8 shadow-md relative overflow-hidden">
+                <div class="relative z-10 space-y-6">
+                    <div class="border-l-4 border-[#2c7a8b] pl-3">
+                        <h2 class="text-2xl font-bold tracking-tight uppercase text-slate-900">Systemic Reflection Pipeline</h2>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs leading-relaxed text-slate-700">
+                        <div class="space-y-2 bg-white/90 p-5 rounded-xl border border-slate-200 shadow-sm col-span-3">
+                            <div class="w-7 h-7 rounded bg-[#bcecf2]/30 flex items-center justify-center border border-[#2c7a8b]/20 text-[#2c7a8b] font-bold font-mono text-xs">01</div>
+                            <h4 class="font-bold text-slate-900 tracking-wide uppercase text-[10px] font-mono">My Journey in Mobile Programming</h4>
+                            <p class="font-medium text-slate-600">While developing the app, I faced challenges in managing architecture, state handling, and complex navigation paths. This phase extended the application with multiple user views, background API requests, camera barcode scanning, and cloud integration. Overall, this journey was challenging but gave me valuable experience that will help me build stronger and more scalable applications in the future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="scroll-mt-24 space-y-8">
+            <div class="space-y-0.5 border-l-4 border-[#2c7a8b] pl-3">
+                <h2 class="text-2xl font-bold tracking-tight text-slate-900 uppercase">Tech Stack & Skills</h2>
+                <p class="text-slate-600 text-xs font-medium uppercase tracking-wider">A look at the programming languages, frameworks, and tools I used to build this application.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 text-slate-800">
+                <div class="p-4 bg-white/80 border border-slate-200 shadow-sm rounded-xl text-center hover:border-[#2c7a8b] hover:scale-102 transition-all duration-300">
+                    <i class="fa-solid fa-code text-[#2c7a8b] text-xl mb-1 block"></i>
+                    <div class="text-sm font-bold">Kotlin</div>
+                </div>
+                <div class="p-4 bg-white/80 border border-slate-200 shadow-sm rounded-xl text-center hover:border-[#2c7a8b] hover:scale-102 transition-all duration-300">
+                    <i class="fa-solid fa-cubes text-[#2c7a8b] text-xl mb-1 block"></i>
+                    <div class="text-sm font-bold">Compose</div>
+                </div>
+                <div class="p-4 bg-white/80 border border-slate-200 shadow-sm rounded-xl text-center hover:border-[#2c7a8b] hover:scale-102 transition-all duration-300">
+                    <i class="fa-solid fa-wand-magic-sparkles text-[#2c7a8b] text-xl mb-1 block"></i>
+                    <div class="text-sm font-bold">Material 3</div>
+                </div>
+                <div class="p-4 bg-white/80 border border-slate-200 shadow-sm rounded-xl text-center hover:border-[#2c7a8b] hover:scale-102 transition-all duration-300">
+                    <i class="fa-solid fa-box-archive text-[#2c7a8b] text-xl mb-1 block"></i>
+                    <div class="text-sm font-bold">Room</div>
+                </div>
+                <div class="p-4 bg-white/80 border border-slate-200 shadow-sm rounded-xl text-center hover:border-[#2c7a8b] hover:scale-102 transition-all duration-300">
+                    <i class="fa-solid fa-cloud-arrow-up text-[#2c7a8b] text-xl mb-1 block"></i>
+                    <div class="text-sm font-bold">Firebase</div>
+                </div>
+                <div class="p-4 bg-white/80 border border-slate-200 shadow-sm rounded-xl text-center hover:border-[#2c7a8b] hover:scale-102 transition-all duration-300">
+                    <i class="fa-solid fa-code-fork text-[#2c7a8b] text-xl mb-1 block"></i>
+                    <div class="text-sm font-bold">Git</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="scroll-mt-24">
+            <div class="beach-glass rounded-2xl p-6 md:p-8 shadow-md">
+                <h3 class="text-base font-bold text-slate-900 mb-6 flex items-center gap-2 uppercase tracking-wide"><i class="fa-solid fa-circle-nodes text-[#2c7a8b]"></i> Engineering Environment Attributions</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-600">
+                    <div class="space-y-3 bg-white/90 p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h4 class="font-bold text-[#2c7a8b] uppercase tracking-widest text-[10px] font-mono">Core Architecture SDKs & Dependencies</h4>
+                        <ul class="list-disc list-inside space-y-1.5 font-medium text-slate-600">
+                            <li>Google Jetpack Compose Framework Runtime Suite</li>
+                            <li>Coil-Compose Image Rendering Pipeline (`io.coil-kt:coil-compose`)</li>
+                            <li>Retrofit REST Client & GSON Converter Factories</li>
+                            <li>Google ML Kit Barcode Vision Scanning API Module</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-3 bg-white/90 p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h4 class="font-bold text-[#2c7a8b] uppercase tracking-widest text-[10px] font-mono">Development Tools & AI Assistance Acknowledgement</h4>
+                        <ul class="list-disc list-inside space-y-1.5 font-medium text-slate-600">
+                            <li>Android Studio</li>
+                            <li>Gemini Large Language Model (LLM)</li>
+                            <li>Chat Gpt Large Language Model (LLM)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="beach-glass text-slate-600 py-8 text-center text-[10px] mt-24 relative z-10 tracking-widest uppercase font-bold font-mono border-t border-white/40">
+        <p>&copy; @2026 Mobile Programming Portfolio Management Platform_UKM </p>
+    </footer>
+
+</body>
+</html>
